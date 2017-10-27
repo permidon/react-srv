@@ -1,0 +1,32 @@
+{
+  "name": "react-srv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/permidon/react-srv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/permidon/react-srv/issues"
+  },
+  "homepage": "https://github.com/permidon/react-srv#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "lodash": "^4.17.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-dom-factories": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "babel-register": "^6.26.0"
+  }
+}
