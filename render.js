@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
 
-import BlogItemsContainer from './components/containers/BlogItemsContainer';
+import BlogPage from './components/containers/BlogPage';
 
 const result = ReactDOMServer.renderToString(
-  React.createElement(BlogItemsContainer)
+  React.createElement(BlogPage)
 );
 
 export default result;

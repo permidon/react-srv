@@ -17,7 +17,7 @@ const items = [
   },
 ];
 
-class BlogItemsContainer extends React.Component {
+class BlogPage extends React.Component {
   constructor(props) {
     super(props);
     
@@ -30,4 +30,4 @@ class BlogItemsContainer extends React.Component {
   }
 }
 
-export default BlogItemsContainer;
+export default BlogPage;
